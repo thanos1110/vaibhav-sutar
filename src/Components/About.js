@@ -2,10 +2,10 @@ import React from 'react'
 import './All.css'
 function Home(props) {
     return (
-        <section className='pink'>
+        <section style={props.myTheme}>
             <div className="container">
                 <div className="col-md-6">
-                    <div className='All pink' id='about'>
+                    <div className='All ' id='about'>
                         <div id="left" className='col-lg-6'>
                             <h1>About Me</h1>
                             <div>

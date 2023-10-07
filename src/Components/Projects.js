@@ -17,7 +17,7 @@ function Projects(props) {
         para: "para 3"
     }
     return (
-        <section id="portfolio" className="py-5">
+        <section id="portfolio" className="py-5" style={props.myTheme}>
             <div className="container">
                 <h1>Portfolio</h1>
                 <div className="row">

@@ -3,7 +3,7 @@ import './All.css'
 
 function Contact(props) {
     return (
-        <section id='contact' className='pink noDeco'>
+        <section id='contact' className='noDeco' style={props.myTheme}>
             <div className="container">
                 <div className="col-md-6">
                     <h1>Contact Me</h1>
