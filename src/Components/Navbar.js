@@ -4,9 +4,8 @@ function Navbar(props) {
     return (
         <div>
             <div className="navbar">
-                <a>{props.brand}</a>
+                <a style={{ backgroundColor: "White", fontSize: "20px", fontWeight: "bold" }}>{props.brand}</a>
                 <div className='centeredItems'>
-                    <a href="#home">Home</a>
                     <a href="#about">About</a>
                     <a href="#portfolio">Portfolio</a>
                     <a href="#contact">Contact</a>
@@ -18,3 +17,6 @@ function Navbar(props) {
 }
 
 export default Navbar
+Navbar.defaultProps = {
+    brand: "Enter Your Name"
+}
